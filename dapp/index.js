@@ -7,7 +7,7 @@ const helloCoin = new web3.eth.Contract(abi, '0xdcc751b0bb05b31e261298d505d97282
 console.log('Contract Address => ', helloCoin.options.address)
 console.log('Contract Interface => ', helloCoin.methods, '\n')
 
-const privateKey = '0xbcd23bf93cc3d0038144905f090e9680b4578aecb3dccb27308f506234612bdc' // 2
+const privateKey = '0x' + 'bcd23bf93cc3d0038144905f090e9680b4578aecb3dccb27308f506234612bdc' // 2
 const account = web3.eth.accounts.privateKeyToAccount(privateKey)
 const wallet = web3.eth.accounts.wallet.create(0)
 wallet.add(account)
