@@ -1,0 +1,29 @@
+{
+  "name": "js-meets-blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "node": "ganache-cli -e 1000000",
+    "deploy": "truffle migrate",
+    "build": "truffle compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianaya89/js-meets-blockchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianaya89/js-meets-blockchain/issues"
+  },
+  "homepage": "https://github.com/ianaya89/js-meets-blockchain#readme",
+  "devDependencies": {
+    "ganache-cli": "^6.1.0",
+    "truffle": "^4.1.6"
+  }
+}
