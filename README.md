@@ -1,6 +1,6 @@
-# JS Meets The Blockchain Demo
+# 🤝 JS Meets The Blockchain Demo
 
-> ganache-cli and truffle are set as dev deps, so no global installation is needed.
+> ⚠️ `ganache-cli` and `truffle` are set as dev deps, so no global installation is needed.
 
 ## Install Deps
 
@@ -8,13 +8,13 @@
 
 ## Deploy Contracts in Local Network
 
-1. `npm run node` // this starts ganache-cli
-2. `npm run deploy` // runs truffle migrate
+1. `npm run node` => this starts ganache-cli
+2. `npm run deploy` => runs truffle migrate
 
 ## Test Contracts in Local Network
 
-1. `npm run node` // this starts ganache-cli
-2. `npm run test` // runs truffle test
+1. `npm run node` => this starts ganache-cli
+2. `npm run test` => runs truffle test
 
 ## Run Demo DApp
 
