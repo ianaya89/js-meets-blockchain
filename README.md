@@ -18,8 +18,8 @@
 
 ## Test Contracts in Local Network
 
-1. `npm run node` => this starts ganache-cli
-2. `npm run test` => runs truffle test
+1. `npm run node` > this starts ganache-cli
+2. `npm run test` > thisruns truffle test
 
 ## Run Demo DApp
 
