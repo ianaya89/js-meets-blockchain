@@ -8,7 +8,7 @@
 
 ## Install Dapp Deps
 
-1.`cd dapp`
+1. `cd dapp`
 2. `npm i`
 
 ## Deploy Contracts in Local Network
