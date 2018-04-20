@@ -2,9 +2,14 @@
 
 > ⚠️ `ganache-cli` and `truffle` are set as dev deps, so no global installation is needed.
 
-## Install Deps
+## Install Contract Deps
 
-- `$ npm i && cd dapp && npm i`
+- `$ npm i`
+
+## Install Dapp Deps
+
+1.`cd dapp`
+2. `npm i`
 
 ## Deploy Contracts in Local Network
 
