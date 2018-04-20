@@ -13,8 +13,8 @@
 
 ## Deploy Contracts in Local Network
 
-1. `npm run node` => this starts ganache-cli
-2. `npm run deploy` => runs truffle migrate
+1. `npm run node` > this starts ganache-cli
+2. `npm run deploy` > this runs truffle migrate
 
 ## Test Contracts in Local Network
 
