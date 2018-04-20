@@ -10,7 +10,8 @@
     "test": "truffle test",
     "node": "ganache-cli -e 1000000",
     "deploy": "truffle migrate",
-    "build": "truffle compile"
+    "build": "truffle compile",
+    "dapp": "node ./dapp/index"
   },
   "repository": {
     "type": "git",

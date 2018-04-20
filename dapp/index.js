@@ -2,12 +2,15 @@ const Web3 = require('web3')
 const web3 = new Web3('http://localhost:8545')
 
 const { abi } = require('../build/contracts/HelloCoin.json')
-const helloCoin = new web3.eth.Contract(abi, '0xdcc751b0bb05b31e261298d505d972820cbdcbcb') // 1
+
+// 1. Replace this address with your contract address
+const helloCoin = new web3.eth.Contract(abi, '0x62d3a560f5c6b4fdeef74db3febd5a9f2ba8a011')
 
 console.log('Contract Address => ', helloCoin.options.address)
 console.log('Contract Interface => ', helloCoin.methods, '\n')
 
-const privateKey = '0x' + 'bcd23bf93cc3d0038144905f090e9680b4578aecb3dccb27308f506234612bdc' // 2
+// 2. Replace this private key from your account private key ('0x' is fixed)
+const privateKey = '0x' + '45a6507384d64d148d3e949473da236d750eaf8e23942fc272710319dff7eb6f'
 const account = web3.eth.accounts.privateKeyToAccount(privateKey)
 const wallet = web3.eth.accounts.wallet.create(0)
 wallet.add(account)
